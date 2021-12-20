@@ -37,4 +37,4 @@ app.post('/students/login', async (req,res) => {
     res.status(500).send()
   }
   })
-app.listen(3001)
+app.listen(process.env.PORT)
